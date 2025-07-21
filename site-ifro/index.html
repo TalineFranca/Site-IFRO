@@ -8,38 +8,38 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <header class="gov-bar">
-    <img src="public/logo-gov.png" alt="Gov.br" class="gov-logo" />
+  <header class="cabecalho-gov">
+    <img src="public/logo-gov.png" alt="Gov.br" class="logo-gov" />
   </header>
 
-  <nav class="main-nav">
-    <div class="nav-wrapper">
-      <div class="logo-area">
+  <nav class="navegacao-principal">
+    <div class="navegacao-envolvente">
+      <div class="area-logo">
         <img src="public/logo-ifro.png" alt="Logo IFRO" class="logo-ifro" />
-        <div class="text-area">
+        <div class="area-texto">
           <p>IFRO</p>
           <h1>Instituto Federal de Rondônia</h1>
           <p>Ministério da Educação</p>
         </div>
       </div>
-      <div class="tools-area">
-        <div class="icons">
+      <div class="area-ferramentas">
+        <div class="redes-sociais">
           <a href="#"><img src="public/facebook.png" alt="facebook" /></a>
           <a href="#"><img src="public/youtube.png" alt="youtube" /></a>
           <a href="#"><img src="public/twitter.png" alt="twitter" /></a>
           <a href="#"><img src="public/instagram.png" alt="instagram" /></a>
         </div>
-        <div class="search-box">
+        <div class="busca">
           <input type="text" placeholder="Busca" />
           <button><img src="/public/lupa.png" alt="Buscar" /></button>
         </div>
       </div>
-      <div class="hamburger" id="menuToggle">
-        <img src="/public/menu.png" alt="Abrir menu" class="menu-icon" />
-        <img src="/public/fechar.png" alt="Fechar menu" class="close-icon" />
+      <div class="menu-hamburguer" id="menuToggle">
+        <img src="/public/menu.png" alt="Abrir menu" class="icone-menu" />
+        <img src="/public/fechar.png" alt="Fechar menu" class="icone-fechar" />
       </div>
     </div>
-    <ul class="navigation" id="menu">
+    <ul class="lista-navegacao" id="menu">
       <li><a href="#">Sobre o IFRO</a></li>
       <li><a href="#">Comunicação</a></li>
       <li><a href="#">Ouvidoria</a></li>
@@ -50,238 +50,233 @@
     </ul>
   </nav>
 
-  <section class="menu-boxes">
-    <div class="menu-buttons">
-      <a class="btn-menu orange" href="#">PDI 2023-2027</a>
-      <a class="btn-menu green1" href="#">Aluno</a>
-      <a class="btn-menu green2" href="#">Servidor</a>
-      <a class="btn-menu green3" href="#">Acesso à Informação</a>
-      <a class="btn-menu green4" href="#">Transparência e Prestação de contas</a>
-      <a class="btn-menu blue" href="#">Programa de Gestão e Desempenho</a>
+  <section class="secao-botoes">
+    <div class="grupo-botoes">
+      <a class="botao-menu laranja" href="#">PDI 2023-2027</a>
+      <a class="botao-menu verde1" href="#">Aluno</a>
+      <a class="botao-menu verde2" href="#">Servidor</a>
+      <a class="botao-menu verde3" href="#">Acesso à Informação</a>
+      <a class="botao-menu verde4" href="#">Transparência e Prestação de contas</a>
+      <a class="botao-menu azul" href="#">Programa de Gestão e Desempenho</a>
     </div>
   </section>
 
-  
-    <div class="container-site">
-  <section class="painel-cards">
-    <div class="painel-card" style="background-image: url('./public/painel-4.png');">
-      <div class="painel-overlay">
-        <h3>Nossos Cursos</h3>
-      </div>
-    </div>
-    <div class="painel-card" style="background-image: url('./public/painel-3.jpg');">
-      <div class="painel-overlay">
-        <h3>Editais</h3>
-      </div>
-    </div>
-    <div class="painel-card" style="background-image: url('./public/painel-2.jpg');">
-      <div class="painel-overlay">
-        <h3>ENEM</h3>
-      </div>
-    </div>
-    <div class="painel-card" style="background-image: url('./public/painel-1.jpg');">
-      <div class="painel-overlay">
-        <h3>Processos Seletivos</h3>
-      </div>
-    </div>
-  </section>
-
-  <section class="news-section">
-    <div class="news-banner">
-      <div class="news-title">Notícias</div>
-      <a href="#" class="news-all">Todas as notícias <span>→</span></a>
-    </div>
-    <div class="news-grid">
-      <a class="new-link" href="#">    
-        <div class="news-card">
-          <img src="public/not1.jpg" alt="Seleção interna" />
-          <div class="news-text">
-            <h3>Seleção interna</h3>
-            <p class="titulo">Chamada abre seleção para representação de Rondônia na Mostra Tecnológica dentro do IFs do Norte na COP 30</p>
-            <p class="not-texto">Até o próximo dia 14 de julho poderão ser submetidas propostas para a representação do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO) em evento preparatório da COP30, a reunião internacional que ocorrerá na cidade de Belém (PA), em novembro de 2025...</p>
-            <p class="data-noticia">Há 52 minutos</p>
-          </div>
-        </div>
-      </a>
-      <a class="new-link" href="#">
-        <div class="news-card">
-          <img src="public/not2.jpg" alt="Extensão" />
-          <div class="news-text">
-            <h3>Extensão</h3>
-            <p class="titulo">Mulher de Fibra/IFRO seleciona alunas para cursos gratuitos de Operadora de Computador e Artesã em Biojoias em Porto Velho</p>
-            <p class="not-texto">A Pró-Reitoria de Extensão do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (Proex/IFRO) está com inscrições abertas para dois cursos gratuitos de Formação Inicial e Continuada (FIC), ofertados por meio do Projeto Mulher de Fibra, no município de Porto Velho (RO)...</p>
-            <p class="data-noticia">Há 5 dias</p>
-          </div>
-        </div>
-      </a>
-      <a class="new-link" href="#">
-        <div class="news-card">
-          <img src="public/not3.jpg" alt="Auditoria Interna" />
-          <div class="news-text">
-            <h3>Auditoria Interna</h3>
-            <p class="titulo">Auditoria Interna de processo seletivo discente avalia governança, controles e gestão de riscos</p>
-            <p class="not-texto">A Auditoria Interna do IFRO realizou uma avaliação detalhada sobre os procedimentos do último processo seletivo discente a Auditoria Interna do IFRO realizou uma avaliação detalhada sobre os procedimentos do último processo seletivo discente a Auditoria Interna do IFRO realizou uma avaliação...</p>
-            <p class="data-noticia">Há 2 dias</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <section class="macroprojetos-section">
-    <div class="news-banner-2">
-      <div class="news-title">MacroProjetos</div>
-      <a href="#" class="news-all">Todos os projetos <span>→</span></a>
-    </div>
-    <div class="macroprojetos-grid">
-      <div class="macro-card">
-        <div class="macro-img">
-          <img src="/public/viva-saude.jpg" alt="Viva Saúde" />
-        </div>
-        <div class="macro-content">
-          <h3 class="macro-titulo red">Projeto <br><strong>Viva Saúde</strong></h3>
-          <img class="logo-ifro-card" src="./public/logoifro.png" alt="Logo IFRO" />
-          <a href="#" class="btn-verprojeto red">Ver Projeto</a>
+  <div class="conteudo-principal">
+    <section class="secao-paineis">
+      <div class="painel" style="background-image: url('./public/painel-4.png');">
+        <div class="sobreposicao-painel">
+          <h3>Nossos Cursos</h3>
         </div>
       </div>
-      <div class="macro-card">
-        <div class="macro-img">
-          <img src="/public/geo-rondonia.jpg" alt="GeoRondônia" />
-        </div>
-        <div class="macro-content">
-          <h3 class="macro-titulo green">Projeto <br><strong>GeoRondônia</strong></h3>
-          <img class="logo-ifro-card" src="./public/logoifro.png" alt="Logo IFRO" />
-          <a href="#" class="btn-verprojeto green">Ver Projeto</a>
+      <div class="painel" style="background-image: url('./public/painel-3.jpg');">
+        <div class="sobreposicao-painel">
+          <h3>Editais</h3>
         </div>
       </div>
-      <div class="macro-card">
-        <div class="macro-img">
-          <img src="/public/ifro-atleta.jpg" alt="IFROatleta Cidadão" />
-        </div>
-        <div class="macro-content">
-          <h3 class="macro-titulo red">Projeto <br><strong>IFROatleta Cidadão</strong></h3>
-          <img class="logo-ifro-card" src="./public/logoifro.png" alt="Logo IFRO" />
-          <a href="#" class="btn-verprojeto red">Ver Projeto</a>
+      <div class="painel" style="background-image: url('./public/painel-2.jpg');">
+        <div class="sobreposicao-painel">
+          <h3>ENEM</h3>
         </div>
       </div>
-      <div class="macro-card">
-        <div class="macro-img">
-          <img src="/public/morar-rural.jpg" alt="Morar + Rural" />
-        </div>
-        <div class="macro-content">
-          <h3 class="macro-titulo brown">Projeto <br><strong>Morar + Rural</strong></h3>
-          <img class="logo-ifro-card" src="./public/logoifro.png" alt="Logo IFRO" />
-          <a href="#" class="btn-verprojeto brown">Ver Projeto</a>
+      <div class="painel" style="background-image: url('./public/painel-1.jpg');">
+        <div class="sobreposicao-painel">
+          <h3>Processos Seletivos</h3>
         </div>
       </div>
     </section>
 
+    <section class="secao-noticias">
+      <div class="cabecalho-noticia">
+        <div class="titulo-noticia">Notícias</div>
+        <a href="#" class="ver-tudo">Todas as notícias <img src="public/seta-direita.png" alt="Ver mais" /></a>
+      </div>
+      <div class="grade-noticias">
+        <a class="link-noticia" href="#">    
+          <div class="cartao-noticia">
+            <img src="public/not1.jpg" alt="Seleção interna" />
+            <div class="texto-noticia">
+              <h3>Seleção interna</h3>
+              <p class="titulo-noticia-principal">Chamada abre seleção para representação de Rondônia na Mostra Tecnológica dentro do IFs do Norte na COP 30</p>
+              <p class="texto-noticia-secundario">Até o próximo dia 14 de julho poderão ser submetidas propostas para a representação do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO) em evento preparatório da COP30, a reunião internacional que ocorrerá na cidade de Belém (PA), em novembro de 2025...</p>
+              <p class="data-noticia">Há 52 minutos</p>
+            </div>
+          </div>
+        </a>
+        <a class="link-noticia" href="#">
+          <div class="cartao-noticia">
+            <img src="public/not2.jpg" alt="Extensão" />
+            <div class="texto-noticia">
+              <h3>Extensão</h3>
+              <p class="titulo-noticia-principal">Mulher de Fibra/IFRO seleciona alunas para cursos gratuitos de Operadora de Computador e Artesã em Biojoias em Porto Velho</p>
+              <p class="texto-noticia-secundario">A Pró-Reitoria de Extensão do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (Proex/IFRO) está com inscrições abertas para dois cursos gratuitos de Formação Inicial e Continuada (FIC), ofertados por meio do Projeto Mulher de Fibra, no município de Porto Velho (RO)...</p>
+              <p class="data-noticia">Há 5 dias</p>
+            </div>
+          </div>
+        </a>
+        <a class="link-noticia" href="#">
+          <div class="cartao-noticia">
+            <img src="public/not3.jpg" alt="Auditoria Interna" />
+            <div class="texto-noticia">
+              <h3>Auditoria Interna</h3>
+              <p class="titulo-noticia-principal">Auditoria Interna de processo seletivo discente avalia governança, controles e gestão de riscos</p>
+              <p class="texto-noticia-secundario">A Auditoria Interna do IFRO realizou uma avaliação detalhada sobre os procedimentos do último processo seletivo discente a Auditoria Interna do IFRO realizou uma avaliação detalhada sobre os procedimentos do último processo seletivo discente a Auditoria Interna do IFRO realizou uma avaliação...</p>
+              <p class="data-noticia">Há 2 dias</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
 
-    
-    <div class="news-banner-2">
-      <div class="news-title">Cursos</div>
-      <a href="#" class="news-all">Todos os cursos <span>→</span></a>
-    </div>
-  <div class="cursos-content">
-  <section class="cursos-container">
-    <div class="cursos-header">
-      <h2>Conheça nossos cursos</h2>
-      <p>
-        Você sabia que o IFRO tem cursos, distribuídos em diversos níveis? São cursos<strong>gratuitos</strong> distribuídos entre cursos de formação inicial e continuada, técnicos integrados, subsequentes, pró-funcionários, superiores e de pós-graduação.
-      </p>
-    </div>
-
-    <div class="cursos-lista">
-      <a href="#" class="curso-link">
-        <div class="curso-card">
-          <span class="curso-tipo">Tecnologia</span>
-          <h3>Tecnologia em Produção Cultural</h3>
-          <p><strong>Carga horária:</strong> 2894h</p>
-          <p><strong>Duração:</strong> Três anos</p>
+    <section class="secao-macroprojetos">
+      <div class="cabecalho-noticia">
+        <div class="titulo-noticia">MacroProjetos</div>
+        <a href="#" class="ver-tudo">Todos os projetos <img src="public/seta-direita.png" alt="Ver mais" /></a>
+      </div>
+      <div class="grade-macroprojetos">
+        <div class="cartao-macroprojeto">
+          <div class="imagem-macroprojeto">
+            <img src="/public/viva-saude.jpg" alt="Viva Saúde" />
+          </div>
+          <div class="conteudo-macroprojeto">
+            <h3 class="titulo-macroprojeto vermelho">Projeto <br><strong>Viva Saúde</strong></h3>
+            <img class="logo-ifro-cartao" src="./public/logoifro.png" alt="Logo IFRO" />
+            <a href="#" class="botao-ver vermelho">Ver Projeto</a>
+          </div>
         </div>
-      </a>
-
-      <a href="#" class="curso-link">
-        <div class="curso-card">
-          <span class="curso-tipo">Especialização</span>
-          <h3>Educação Inclusiva à distância</h3>
-          <p><strong>Carga horária:</strong> 450h</p>
-          <p><strong>Duração:</strong> Quatro módulos</p>
+        <div class="cartao-macroprojeto">
+          <div class="imagem-macroprojeto">
+            <img src="/public/geo-rondonia.jpg" alt="GeoRondônia" />
+          </div>
+          <div class="conteudo-macroprojeto">
+            <h3 class="titulo-macroprojeto verde">Projeto <br><strong>GeoRondônia</strong></h3>
+            <img class="logo-ifro-cartao" src="./public/logoifro.png" alt="Logo IFRO" />
+            <a href="#" class="botao-ver verde">Ver Projeto</a>
+          </div>
         </div>
-      </a>
-
-      <a href="#" class="curso-link">
-        <div class="curso-card">
-          <span class="curso-tipo">Aperfeiçoamento</span>
-          <h3>Aperfeiçoamento para Professores dos Municípios do Rio Grande do Norte</h3>
-          <p><strong>Carga horária:</strong> 220h</p>
-          <p><strong>Duração:</strong> Cinco módulos</p>
+        <div class="cartao-macroprojeto">
+          <div class="imagem-macroprojeto">
+            <img src="/public/ifro-atleta.jpg" alt="IFROatleta Cidadão" />
+          </div>
+          <div class="conteudo-macroprojeto">
+            <h3 class="titulo-macroprojeto vermelho">Projeto <br><strong>IFROatleta Cidadão</strong></h3>
+            <img class="logo-ifro-cartao" src="./public/logoifro.png" alt="Logo IFRO" />
+            <a href="#" class="botao-ver vermelho">Ver Projeto</a>
+          </div>
         </div>
-      </a>
+        <div class="cartao-macroprojeto">
+          <div class="imagem-macroprojeto">
+            <img src="/public/morar-rural.jpg" alt="Morar + Rural" />
+          </div>
+          <div class="conteudo-macroprojeto">
+            <h3 class="titulo-macroprojeto marrom">Projeto <br><strong>Morar + Rural</strong></h3>
+            <img class="logo-ifro-cartao" src="./public/logoifro.png" alt="Logo IFRO" />
+            <a href="#" class="botao-ver marrom">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cabecalho-noticia">
+      <div class="titulo-noticia">Cursos</div>
+      <a href="#" class="ver-tudo">Todos os cursos <img src="public/seta-direita.png" alt="Ver mais" /></a>
     </div>
+    <div class="conteudo-cursos">
+      <section class="secao-cursos">
+        <div class="cabecalho-cursos">
+          <h2>Conheça nossos cursos</h2>
+          <p>
+            Você sabia que o IFRO tem cursos, distribuídos em diversos níveis? São cursos <strong>gratuitos</strong> distribuídos entre cursos de formação inicial e continuada, técnicos integrados, subsequentes, pró-funcionários, superiores e de pós-graduação.
+          </p>
+        </div>
 
-    <div class="cursos-busca">
-      <select>
-        <option>Cursos de Pós-Graduação</option>
-        <option>Cursos Superiores</option>
-        <option>Cursos Técnicos</option>
-        <option>Outros Cursos</option>
-      </select>
-      <button>Buscar</button>
+        <div class="lista-cursos">
+          <a href="#" class="link-curso">
+            <div class="cartao-curso">
+              <span class="tipo-curso">Tecnologia</span>
+              <h3>Tecnologia em Produção Cultural</h3>
+              <p><strong>Carga horária:</strong> 2894h</p>
+              <p><strong>Duração:</strong> Três anos</p>
+            </div>
+          </a>
+
+          <a href="#" class="link-curso">
+            <div class="cartao-curso">
+              <span class="tipo-curso">Especialização</span>
+              <h3>Educação Inclusiva à distância</h3>
+              <p><strong>Carga horária:</strong> 450h</p>
+              <p><strong>Duração:</strong> Quatro módulos</p>
+            </div>
+          </a>
+
+          <a href="#" class="link-curso">
+            <div class="cartao-curso">
+              <span class="tipo-curso">Aperfeiçoamento</span>
+              <h3>Aperfeiçoamento para Professores</h3>
+              <p><strong>Carga horária:</strong> 220h</p>
+              <p><strong>Duração:</strong> Cinco módulos</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="busca-cursos">
+          <select>
+            <option>Cursos de Pós-Graduação</option>
+            <option>Cursos Superiores</option>
+            <option>Cursos Técnicos</option>
+            <option>Outros Cursos</option>
+          </select>
+          <button>Buscar</button>
+        </div>
+      </section>
+
+      <section class="secao-eventos">
+        <div class="cabecalho-noticia">
+          <div class="titulo-noticia">Eventos</div>
+          <a href="#" class="ver-tudo">Todos os eventos <img src="public/seta-direita.png" alt="Ver mais" /></a>
+        </div>
+
+        <div class="container-eventos">
+          <h2 class="titulo-secao">Em andamento:</h2>
+
+          <div class="filtros-eventos">
+            <button>Eventos Escolares</button>
+            <button>Palestras</button>
+            <button>Campanhas</button>
+            <button>Esportes</button>
+            <button>Culturais</button>
+          </div>
+
+          <div class="cartao-evento">
+            <a><p class="categoria-evento">Campanha Educacional</p></a>
+            <h3 class="titulo-evento">Semana de Conscientização sobre o Bullying nas Escolas</h3>
+            <div class="info-evento">
+              <span class="ponto amarelo">●</span>
+              <p>22/07 às 10h</p>
+              <strong>Abertura oficial</strong>
+              <span class="descricao-evento">— Evento com palestra, oficinas e debates.</span>
+            </div>
+            <p class="edital-evento"><strong>Edital:</strong> 05/2025 - DCE/IFRO</p>
+          </div>
+
+          <div class="cartao-evento">
+            <a><p class="categoria-evento">Jogos Escolares Internos</p></a>
+            <h3 class="titulo-evento">Torneio Interclasse 2025 - Ensino Médio</h3>
+            <div class="info-evento">
+              <span class="ponto verde">●</span>
+              <p>25/07 às 8h</p>
+              <strong>Inscrições abertas</strong>
+              <span class="descricao-evento">— Vôlei, futsal, xadrez e atletismo.</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
-
-  <section>
-
-    <div class="news-banner-2">
-      <div class="news-title">Eventos</div>
-      <a href="#" class="news-all">Todos os eventos <span>→</span></a>
-    </div>
-
-  <div class="eventos-container">
-  <h2 class="titulo-secao">Em andamento:</h2>
-
-  <div class="filtros">
-    <button>Eventos Escolares</button>
-    <button>Palestras</button>
-    <button>Campanhas</button>
-    <button>Esportes</button>
-    <button>Culturais</button>
   </div>
 
-  <div class="evento-card">
-    <a><p class="evento-categoria">Campanha Educacional</p></a>
-    <h3 class="evento-titulo">Semana de Conscientização sobre o Bullying nas Escolas</h3>
-    <div class="evento-info">
-      <span class="ponto amarelo">●</span>
-      <p>22/07 às 10h</p>
-      <strong>Abertura oficial</strong>
-      <span class="descricao">— Evento com palestra, oficinas e debates.</span>
-    </div>
-    <p class="edital"><strong>Edital:</strong> 05/2025 - DCE/IFRO</p>
-  </div>
-
-  <div class="evento-card">
-    <a><p class="evento-categoria">Jogos Escolares Internos</p></a>
-    <h3 class="evento-titulo">Torneio Interclasse 2025 - Ensino Médio</h3>
-    <div class="evento-info">
-      <span class="ponto verde">●</span>
-      <p>25/07 às 8h</p>
-      <strong>Inscrições abertas</strong>
-      <span class="descricao">— Vôlei, futsal, xadrez e atletismo.</span>
-    </div>
-  </div>
-</div>
-  </section>
-
-</div>
-  </section>
-    </div>  
-
-</section>
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="footer-links">
-        <div class="footer-column">
+  <footer class="rodape">
+    <div class="topo-rodape">
+      <div class="links-rodape">
+        <div class="coluna-rodape">
           <p>Serviços</p>
           <a href="#">Sobre o IFRO</a>
           <a href="#">Comunicação</a>
@@ -291,31 +286,31 @@
           <a href="#">Fale Conosco</a>
           <a href="#">IFRO Mobile</a>
         </div>
-        <div class="footer-column">
+        <div class="coluna-rodape">
           <p>Redes Sociais</p>
           <a href="#">Facebook</a>
           <a href="#">YouTube</a>
           <a href="#">Twitter</a>
           <a href="#">Instagram</a>
         </div>
-        <div class="footer-column">
+        <div class="coluna-rodape">
           <p>RSS</p>
           <a href="#">O que é?</a>
           <a href="#">Assine</a>
         </div>
-        <div class="footer-column">
+        <div class="coluna-rodape">
           <p>Sobre o site</p>
           <a href="#">Acessibilidade</a>
         </div>
       </div>
     </div>
-    <div class="footer-logos-container">
-      <div class="footer-logos">
+    <div class="container-logos-rodape">
+      <div class="logos-rodape">
         <a href="#"><img src="public/info.png" alt="Acesso à Informação" /></a>
         <a href="#"><img src="public/gov-federal.png" alt="Governo Federal" /></a>
       </div>
     </div>
-    <div class="footer-info white-section">
+    <div class="info-rodape secao-branca">
       <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia REITORIA</p>
       <p>Av. Lauro Sodré, 6500 - Censipam - Aeroporto, Porto Velho - RO, 76803-260</p>
       <p>Fone/Fax: (69) 2182-9600</p>
